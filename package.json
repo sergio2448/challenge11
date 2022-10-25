@@ -1,0 +1,34 @@
+{
+  "name": "challenge11",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "make-migration": "knex migrate:make",
+    "migrate": "knex migrate:up",
+    "rollback": "knex migrate:rollback",
+    "list-migrations": "knex migrate:list"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sergio2448/challenge11.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sergio2448/challenge11/issues"
+  },
+  "homepage": "https://github.com/sergio2448/challenge11#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-handlebars": "^6.0.6",
+    "knex": "^2.3.0",
+    "moment": "^2.29.4",
+    "mysql": "^2.18.1",
+    "socket.io": "^4.5.2",
+    "sqlite3": "^5.1.2"
+  }
+}
